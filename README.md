@@ -1,6 +1,20 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Adding TypeScript to a ReactJS SPA 
 
-## Available Scripts
+TypeScript works well with many 3erd party JavaScript libraries. ReactJS is one of the most popular JavaScript libraries for building amazing fast user interfaces. TypeScript is not the default in ReactJS projects but it is extremely simple to integrate TypeScript into any ReactJS single page application.
+
+## Installation
+
+### 'npx create-react-app my-app --template typescript'
+or
+### 'yarn create react-app my-app --template typescript'
+
+If you want to change a existing project over to TypeScript, first install the below:
+
+### 'npm install --save typescript @types/node @types/react @types/react-dom @types/jest'
+or
+### 'yarn add typescript @types/node @types/react @types/react-dom @types/jest'
+
+Now you have to rename any file that ends in .js with .tsx (e.g. src/index.js to src/index.tsx) and restart your development server! Type errors will show up in the same console, you will have to fix the type errors before you continue development or build your project.
 
 In the project directory, you can run:
 
